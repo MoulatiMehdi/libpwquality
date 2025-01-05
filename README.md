@@ -10,23 +10,23 @@ it will ensure that the name of the username isnt in the password regardless of 
 
 # Installation Instructions
 
-    Clone the repository:
+## Clone the repository:
 ```shell
     git clone https://github.com/MoulatiMehdi/libpwquality.git
     cd libpwquality
 ```
-    make a Backup: **Ensure the existing pam_pwquality.so file is backed up**:
+## make a Backup: **Ensure the existing pam_pwquality.so file is backed up**:
 
 ```shell
 	sudo mv /lib/x86_64-linux-gnu/security/pam_pwquality.so /lib/x86_64-linux-gnu/security/pam_pwquality.so.bak
 	
 ```
-    Then replace it with the new file:
+Then replace it with the new file:
 
 ```shell
   	sudo cp pam_pwquality.so /lib/x86_64-linux-gnu/security/
 ```
-    Verify the changes: Test the password validation behavior to ensure the fix works as expected.
+## Verify the changes: Test the password validation behavior to ensure the fix works as expected.
 
 # Notes
 
