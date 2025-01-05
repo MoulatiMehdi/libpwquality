@@ -1,7 +1,6 @@
-# PAM PWQuality Fix
+# PAM PWQuality Fix (BornTobeRoot 42project)
 
-This repository contains a custom-built version of the pam_pwquality.so module designed to address an issue where passwords shorter than 4 characters are not checked for the presence of the username. This fix ensures stricter password validation in compliance with security requirements.
-
+This repository contains a custom-built version of the pam_pwquality.so module designed to address an issue where passwords shorter than 4 characters are not checked for the presence of the username. This fix ensures stricter password validation in compliance with security requirements. 
 # Purpose
 
 The default behavior of pam_pwquality allows passwords containing the username if they are less than 4 characters long.
